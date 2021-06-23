@@ -200,7 +200,8 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    /*font-size: 0.78em;*/
+    font-size: 1em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
@@ -209,9 +210,11 @@
 .post-content pre code {
     display: block;
     margin: auto 0;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding: 28px;
     color: rgba(255, 255, 255, 0.8);
-    background: 0 0;
+    /*background: 0 0;*/
+    background: rgb(49 55 66);
     border-radius: 0;
     overflow-x: auto;
     word-break: break-all;
