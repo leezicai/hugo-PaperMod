@@ -4,13 +4,20 @@
     justify-content:left;
     align-items:left;
     vertical-align:top;
+    flex-wrap: wrap;
 }
 .div_footer{
     /*float: left;*/
+    padding: 10px;
     display:flex;
     justify-content:left;
     align-items:left;
     vertical-align:top;
+    flex-wrap: wrap;
+}
+#social_icons {
+    height:45 ;
+    width:45 ;
 }
 
 .footer,
