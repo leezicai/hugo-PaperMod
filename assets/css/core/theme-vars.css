@@ -6,9 +6,10 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: #fff;
+    /*--theme: #fff;*/
+    --theme: rgb(255 254 250 / 94%);
     /*--entry: #fff;*/
-    --entry:  rgba(240, 240, 240, 0.9);
+    --entry:  rgba(256, 256, 256, 1);
     --primary: rgba(0, 0, 0, 0.88);
     --secondary: rgba(0, 0, 0, 0.56);
     --tertiary: rgba(0, 0, 0, 0.16);
@@ -17,10 +18,12 @@
     --code-bg: #f5f5f5;
     --border: #eee;
     --mylinkcolor: #64c192;
+    --mythemecolor: rgb(255 254 250 / 94%);
 }
 
 .dark {
-    --theme: #1d1e20;
+    /*--theme: #1d1e20;*/
+    --theme: #3c4456;
     --entry: #2e2e33;
     --primary: rgba(255, 255, 255, 0.84);
     --secondary: rgba(255, 255, 255, 0.56);
@@ -33,7 +36,7 @@
 
 .list {
     /*background: var(--code-bg);*/
-    background: rgba(255, 255, 255, 0.88);
+    background: var(--mythemecolor);
 }
 
 .dark.list {
