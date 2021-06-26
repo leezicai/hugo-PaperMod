@@ -64,7 +64,7 @@ code {
 
 div.highlight,
 pre {
-    position: relative;
+    /*position: relative;*/
 }
 
 .copy-code {
