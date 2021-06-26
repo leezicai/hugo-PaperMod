@@ -1,3 +1,21 @@
+
+/*为了嵌入bilibili视频*/
+.meta-media {
+  position: relative;
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
