@@ -9,7 +9,7 @@
     /*--theme: #fff;*/
     --theme: rgb(255 254 250 / 94%);
     /*--entry: #fff;*/
-    --entry:  rgba(256, 256, 256, 1);
+    --entry:  #f5f5f5;
     --primary: rgba(0, 0, 0, 0.88);
     --secondary: rgba(0, 0, 0, 0.56);
     --tertiary: rgba(0, 0, 0, 0.16);
