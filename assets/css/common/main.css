@@ -65,6 +65,8 @@ code {
 div.highlight,
 pre {
     /*position: relative;*/
+    float: left;
+    width: 100%;
 }
 
 .copy-code {

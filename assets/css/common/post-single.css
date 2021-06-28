@@ -157,7 +157,7 @@
 .post-content .highlight:not(table),
 .post-content pre {
     margin: 10px auto;
-    /*background: var(--hljs-bg) !important;*/
+    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
 }
 
@@ -305,6 +305,8 @@
 
 .post-footer {
     margin-top: 56px;
+    float: left;
+    width: 100%;
 }
 
 .post-tags li {
