@@ -24,7 +24,8 @@
 .dark {
     /*--theme: #1d1e20;*/
     --theme: #3c4456;
-    --entry: #2e2e33;
+    /*--entry: #2e2e33;*/
+    --entry: #323442;
     --primary: rgba(255, 255, 255, 0.84);
     --secondary: rgba(255, 255, 255, 0.56);
     --tertiary: rgba(255, 255, 255, 0.16);
