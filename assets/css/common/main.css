@@ -1,4 +1,11 @@
 
+.div-left {
+  /*position: relative;*/
+  display:flex;
+  padding: 1px;
+  align-items: center;
+}
+
 /*为了嵌入bilibili视频*/
 .meta-media {
   position: relative;
