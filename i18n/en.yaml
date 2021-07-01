@@ -24,7 +24,9 @@
   translation: "Home"
 
 - id: code_copy
-  translation: "copy"
+  #translation: "copy"
+  translation: "复制"
 
 - id: code_copied
-  translation: "copied!"
+  #translation: "copied!"
+  translation: "已复制!"
