@@ -1,3 +1,10 @@
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
