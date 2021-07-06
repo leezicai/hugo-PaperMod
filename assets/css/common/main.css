@@ -5,6 +5,10 @@
   padding: 1px;
   align-items: center;
 }
+.div-left img{
+    max-width: 26px;
+    max-height: 26px;
+}
 
 /*为了嵌入bilibili视频*/
 .meta-media {
