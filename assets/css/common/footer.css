@@ -1,14 +1,48 @@
+.div-link-center a{
+  display:flex;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+}
 
-.div_center{
+.div-link-center {
+  display:flex;
+  padding: 1px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div-link-center img{
+    max-width: 24px;
+    max-height: 24px;
+}
+.footer img{
+    display: inherit;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.div-social-mama{
     display:flex;
     justify-content:left;
     align-items:left;
     vertical-align:top;
     flex-wrap: wrap;
 }
-.div_footer{
+.div-social{
     /*float: left;*/
     padding: 10px;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    vertical-align:top;
+    flex-wrap: wrap;
+}
+.div-footer{
+    /*float: left;*/
+    padding: 5px;
     display:flex;
     justify-content:left;
     align-items:left;
@@ -18,7 +52,7 @@
 
 .footer,
 .top-link {
-    font-size: 12px;
+    font-size: 20px;
     color: var(--secondary);
 }
 
