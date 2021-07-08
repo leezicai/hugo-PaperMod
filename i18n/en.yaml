@@ -30,3 +30,15 @@
 - id: code_copied
   #translation: "copied!"
   translation: "已复制!"
+
+- id: warning
+  other : "警告"
+
+- id: note
+  other : "注释"
+
+- id: info
+  other : "引言"
+
+- id: tip
+  other : "小贴示"
