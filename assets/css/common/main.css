@@ -9,6 +9,10 @@
     max-width: 26px;
     max-height: 26px;
 }
+.div-left-task-img img{
+    max-width: 29px;
+    max-height: 29px;
+}
 
 /*为了嵌入bilibili视频*/
 .meta-media {
