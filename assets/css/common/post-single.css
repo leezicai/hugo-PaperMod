@@ -167,7 +167,8 @@ td img{
 .post-content pre {
     margin: 10px auto;
     background: var(--hljs-bg) !important;
-    border-radius: var(--radius);
+    border-radius: 8px
+    /*border-radius: var(--radius);*/
 }
 
 .post-content li > .highlight {
@@ -228,12 +229,21 @@ td img{
     border-radius: 0;
     overflow-x: auto;
     word-break: break-all;
+    border-radius: 8px
 }
 
 .post-content blockquote {
     margin: 20px 0;
-    padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    display: flex;
+    /*padding: 0 14px;*/
+    padding: 6px 14px;
+    /*border-inline-start: 3px solid var(--primary);*/
+    border-inline-start: 5px solid var(--primary);
+}
+
+.post-content blockquote p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .post-content hr {
