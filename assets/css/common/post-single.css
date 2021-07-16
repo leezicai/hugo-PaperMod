@@ -260,6 +260,8 @@ td img{
 
 .post-content img {
     border-radius: 10px;
+    position: relative;
+    float: left;
 }
 
 .post-content img[src*="#center"] {
