@@ -270,8 +270,8 @@ td img{
 .post-content img {
     border-radius: 10px;
     position: relative;
-    margin-bottom: 3.5px;
-    margin-top: 3.5px;
+    /*margin-bottom: 3.5px;*/
+    /*margin-top: 3.5px;*/
 }
 
 .post-content img[src*="#center"] {
