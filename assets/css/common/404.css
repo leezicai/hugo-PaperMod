@@ -3,9 +3,10 @@
     left: 0;
     right: 0;
     display: flex;
+    white-space: nowrap;
     align-items: center;
     justify-content: center;
     height: 80%;
-    font-size: 160px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 360;
 }
