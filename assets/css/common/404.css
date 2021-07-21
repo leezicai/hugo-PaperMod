@@ -7,6 +7,12 @@
     align-items: center;
     justify-content: center;
     height: 80%;
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 360;
+}
+.not-found a{
+    margin-left: 10px;
+    color:var(--theme);
+    background-color: var(--mylinkcolor);
+    border-radius:10px; padding: 0px 8px 0px 8px;
 }
