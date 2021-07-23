@@ -109,6 +109,22 @@ td img{
 .post-content ul {
     margin-bottom: var(--content-gap);
 }
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6,
+.post-content table th,
+.post-content table td,
+.toc .details,
+.page-header,
+.post-header,
+.post-content a,
+.post-content p {
+    letter-spacing: 0.036rem;
+}
+
 
 .post-content ol,
 .post-content ul {
@@ -175,7 +191,8 @@ td img{
 .post-content .highlight:not(table),
 .post-content pre {
     margin: 10px auto;
-    background: var(--hljs-bg) !important;
+    /*background: var(--hljs-bg) !important;*/
+    background: var(--mycodebg) !important;
     border-radius: 8px
     /*border-radius: var(--radius);*/
 }
@@ -234,7 +251,7 @@ td img{
     padding: 20px 10px 20px 20px;
     color: rgba(255, 255, 255, 0.8);
     /*background: 0 0;*/
-    background: rgb(49 55 66);
+    background: var(--mycodebg);
     border-radius: 0;
     overflow-x: auto;
     word-break: break-all;
@@ -336,7 +353,7 @@ td img{
 
 .post-footer {
     margin-top: 56px;
-    float: left;
+    /*float: left;*/
     width: 100%;
 }
 
