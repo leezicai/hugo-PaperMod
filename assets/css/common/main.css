@@ -7,11 +7,15 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.div-left-img img{
+.div-left-nu-img img{
     max-width: 26px;
     max-height: 26px;
 }
 .div-left-task-img img{
+    max-width: 29px;
+    max-height: 29px;
+}
+.div-left-tag-img img{
     max-width: 29px;
     max-height: 29px;
 }
