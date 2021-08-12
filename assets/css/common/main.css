@@ -1,3 +1,43 @@
+
+.div-left {
+  /*position: relative;*/
+  display:flex;
+  padding: 1px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.div-left-nu-img img{
+    max-width: 26px;
+    max-height: 26px;
+}
+.div-left-task-img img{
+    max-width: 29px;
+    max-height: 29px;
+}
+.div-left-tag-img img{
+    max-width: 29px;
+    max-height: 29px;
+}
+
+/*为了嵌入bilibili视频*/
+.meta-media {
+  position: relative;
+  margin-bottom: 30px;
+  /*float: left;*/
+  display: flex;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
 .main {
     position: relative;
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
@@ -47,6 +87,9 @@ code {
 div.highlight,
 pre {
     position: relative;
+    /*float: left;*/
+    display: flex;
+    width: 100%;
 }
 
 .copy-code {
